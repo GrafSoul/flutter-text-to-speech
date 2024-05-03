@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'pages/home_page.dart';
+import 'package:flutter_text_to_speech_tutorial/pages/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,8 +10,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
-      title: 'Text to Speech Demo with GetX',
+    return MaterialApp(
+      title: 'Text to Speech Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
